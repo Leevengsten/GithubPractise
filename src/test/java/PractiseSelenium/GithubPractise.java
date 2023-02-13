@@ -14,9 +14,10 @@ public class GithubPractise {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://github.com/Leevengsten/PostCheck");
-		driver.findElement(By.id("projects-tab")).click();
-		driver.findElement(By.id("insights-tab")).click();
+		driver.get("https://www.amazon.in/");
+		//driver.get("https://github.com/Leevengsten/PostCheck");
+		//driver.findElement(By.id("projects-tab")).click();
+		//driver.findElement(By.id("insights-tab")).click();
 		
 	}
 
